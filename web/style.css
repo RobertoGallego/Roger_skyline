@@ -1,0 +1,200 @@
+<style type="text/css">
+
+html, body
+{
+	height: 100%;
+}
+
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	background: #ededed;
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+}
+
+h1, h2, h3 
+{
+	margin: 0;
+	padding: 0;
+}
+
+/** CONTAINER */
+
+.container
+{
+	width: 1100px;
+	margin: 0px auto;
+}
+
+.clearfix
+{
+	clear: both;
+}
+
+/** HEADER */
+
+
+#header-wrapper
+
+{
+
+	overflow: hidden;
+
+	background: #3b3b3b;
+
+}
+
+
+#header
+
+{
+
+	overflow: hidden;
+
+	height: 150px;
+
+}
+
+
+/** LOGO */
+
+
+#logo
+
+{
+
+	float: left;
+
+	width: 400;
+
+}
+
+
+#logo h1 a
+
+{
+
+	display: block;
+
+	line-height: 150px;
+
+	text-decoration: none;
+
+	font-family: 'Kavoon', cursive;
+
+	font-size: 40px;
+
+	color: #FFFFFF;
+
+}
+
+
+/** MENU */
+
+
+#menu
+
+{
+
+	float: right;
+
+	width: 700px;
+
+}
+
+
+#menu ul
+
+{
+
+	float: right;
+
+	margin: 0px;
+
+	padding: 60px 0px 0px 0px;
+
+	list-style: none;
+
+	line-height: normal;
+
+}
+
+
+#menu li
+
+{
+
+	float: left;
+
+	margin-left: 10px;
+
+}
+
+
+#menu a
+
+{
+
+	display: block;
+
+	padding: 10px 20px;
+
+	letter-spacing: 2px;
+
+	text-decoration: none;
+
+	text-transform: uppercase;
+
+	font-family: 'Archivo Narrow', sans-serif;
+
+	font-size: 12px;
+
+	font-weight: 600;
+
+	color: #FFFFFF;
+
+}
+
+
+#menu .active a
+
+{
+
+	background: #00d9a9;
+
+	border-radius: 5px;
+
+	color: #FFFFFF;
+
+}
+
+
+#menu .active a:hover
+
+{
+
+	background-color: #00a987;
+
+}
+
+
+
+#menu .active a:active
+
+{
+
+	background-color: #20e1b6;
+
+}
+
+
+
+#menu a:hover
+
+{
+
+	text-decoration: none;
+
+}

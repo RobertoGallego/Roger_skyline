@@ -1,0 +1,21 @@
+sudo service --status-all
+
+ [ + ]  apache-htcacheclean
+ [ + ]  apache2
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  dbus
+ [ + ]  fail2ban
+ [ - ]  hwclock.sh
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  networking
+ [ + ]  portsentry
+ [ + ]  postfix
+ [ + ]  procps
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ + ]  ssh
+ [ - ]  sudo
+ [ + ]  udev
+ [ + ]  ufw

@@ -1,0 +1,5 @@
+sudo crontab -l
+
+0 4 * * 1 /home/scripts/update_script.sh
+@reboot /home/scripts/update_script.sh
+0 0 * * * /home/scripts/check_crontab.sh >> /var/log/check_crontab.log
